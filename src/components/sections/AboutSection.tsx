@@ -1,0 +1,131 @@
+import { Award, Users, Globe, Target } from "lucide-react";
+
+const features = [
+  {
+    icon: Award,
+    title: "35+ Anos",
+    description: "Experiência transformando conhecimento técnico em resultados",
+  },
+  {
+    icon: Globe,
+    title: "Atuação Global",
+    description: "Projetos em Alemanha, EUA, China e mais de 7 países",
+  },
+  {
+    icon: Users,
+    title: "Parceiros",
+    description: "Rede de especialistas para validar e desenvolver projetos",
+  },
+  {
+    icon: Target,
+    title: "Foco em Resultados",
+    description: "Do projeto à liberação comercial com eficiência",
+  },
+];
+
+const AboutSection = () => {
+  return (
+    <section id="sobre" className="py-24 lg:py-32 bg-gradient-subtle">
+      <div className="container mx-auto px-4">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          {/* Content */}
+          <div className="order-2 lg:order-1">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
+              Sobre Nós
+            </div>
+            
+            <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
+              Conhecimento Técnico que Gera{" "}
+              <span className="text-primary">Resultados Industriais</span>
+            </h2>
+            
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+              Mais de 35 anos de experiência transformando conhecimento técnico em resultados industriais reais. 
+              Atuamos no desenvolvimento de produtos, moldes, automação e otimização de processos em termoplásticos e LSR, 
+              ajudando empresas a ganhar eficiência, reduzir riscos e acelerar o time-to-market.
+            </p>
+
+            <div className="p-6 bg-card rounded-xl border border-border shadow-card mb-8">
+              <div className="flex items-start gap-4">
+                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                  <span className="text-2xl font-bold text-primary font-display">AS</span>
+                </div>
+                <div>
+                  <h3 className="font-display font-bold text-lg text-foreground mb-1">
+                    André Penteado Pires da Silveira
+                  </h3>
+                  <p className="text-sm text-primary font-medium mb-2">
+                    Consultor Sênior | Engenheiro Mecânico
+                  </p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Especialização em gestão empresarial, atua desde 1986 no desenvolvimento de produtos e ferramentas, 
+                    com foco na otimização de processos, automação industrial e controle de custos.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Feature Grid */}
+            <div className="grid grid-cols-2 gap-4">
+              {features.map((feature) => (
+                <div
+                  key={feature.title}
+                  className="p-4 rounded-lg bg-card border border-border hover:shadow-card transition-all duration-300 hover:-translate-y-0.5"
+                >
+                  <feature.icon className="w-8 h-8 text-primary mb-3" />
+                  <h4 className="font-display font-semibold text-foreground mb-1">{feature.title}</h4>
+                  <p className="text-sm text-muted-foreground">{feature.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Visual Element */}
+          <div className="order-1 lg:order-2 relative">
+            <div className="relative aspect-square max-w-md mx-auto">
+              {/* Decorative Elements */}
+              <div className="absolute inset-0 bg-gradient-primary rounded-3xl transform rotate-6 opacity-20" />
+              <div className="absolute inset-0 bg-gradient-primary rounded-3xl transform -rotate-3 opacity-10" />
+              
+              {/* Main Card */}
+              <div className="relative bg-card rounded-3xl p-8 shadow-card-hover border border-border overflow-hidden">
+                <div className="absolute top-0 right-0 w-40 h-40 bg-primary/5 rounded-full -translate-y-1/2 translate-x-1/2" />
+                <div className="absolute bottom-0 left-0 w-32 h-32 bg-secondary/20 rounded-full translate-y-1/2 -translate-x-1/2" />
+                
+                <div className="relative space-y-6">
+                  <div className="text-center mb-8">
+                    <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-primary shadow-primary mb-4">
+                      <Globe className="w-10 h-10 text-primary-foreground" />
+                    </div>
+                    <h3 className="font-display font-bold text-xl text-foreground">
+                      Visão Integrada
+                    </h3>
+                    <p className="text-muted-foreground text-sm mt-2">
+                      Produto, ferramenta, automação e processo
+                    </p>
+                  </div>
+
+                  <div className="space-y-4">
+                    {["Injeção Termoplástica", "Sopro Termoplástico", "Extrusão de Perfis", "Injeção de LSR"].map((item, index) => (
+                      <div
+                        key={item}
+                        className="flex items-center gap-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors"
+                      >
+                        <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
+                          <span className="text-sm font-bold text-primary">{index + 1}</span>
+                        </div>
+                        <span className="text-sm font-medium text-foreground">{item}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default AboutSection;
