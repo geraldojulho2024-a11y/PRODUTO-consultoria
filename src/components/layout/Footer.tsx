@@ -1,10 +1,7 @@
 import { Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-
-  return (
-    <footer className="bg-gradient-dark text-primary-foreground py-16">
+  return <footer className="bg-gradient-dark text-primary-foreground py-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
@@ -17,24 +14,10 @@ const Footer = () => {
               Mais de 35 anos transformando conhecimento técnico em resultados industriais reais.
             </p>
             <div className="flex gap-4">
-              <a
-                href="https://www.linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-lg bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
-                aria-label="LinkedIn"
-              >
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors" aria-label="LinkedIn">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a
-                href="https://www.instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-lg bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="w-5 h-5" />
-              </a>
+              
             </div>
           </div>
 
@@ -42,16 +25,11 @@ const Footer = () => {
           <div>
             <h4 className="font-display font-semibold text-lg mb-4">Navegação</h4>
             <ul className="space-y-3">
-              {["Início", "Sobre", "Diferenciais", "Serviços", "Depoimentos", "Contato"].map((item) => (
-                <li key={item}>
-                  <a
-                    href={`#${item.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`}
-                    className="text-primary-foreground/70 hover:text-primary-foreground transition-colors"
-                  >
+              {["Início", "Sobre", "Diferenciais", "Serviços", "Depoimentos", "Contato"].map(item => <li key={item}>
+                  <a href={`#${item.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`} className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
                     {item}
                   </a>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -60,19 +38,13 @@ const Footer = () => {
             <h4 className="font-display font-semibold text-lg mb-4">Contato</h4>
             <ul className="space-y-4">
               <li>
-                <a
-                  href="tel:+5511941621715"
-                  className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary-foreground transition-colors"
-                >
+                <a href="tel:+5511941621715" className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
                   <Phone className="w-4 h-4" />
                   +55 11 94162-1715
                 </a>
               </li>
               <li>
-                <a
-                  href="mailto:andre.silveira@produto-ltda.com"
-                  className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary-foreground transition-colors"
-                >
+                <a href="mailto:andre.silveira@produto-ltda.com" className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
                   <Mail className="w-4 h-4" />
                   andre.silveira@produto-ltda.com
                 </a>
@@ -95,8 +67,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
