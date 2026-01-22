@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock, MessageCircle, ArrowRight } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const contactInfo = [
@@ -18,12 +18,6 @@ const contactInfo = [
     icon: MapPin,
     label: "Localização",
     value: "Jundiaí, SP - Brasil",
-    href: null,
-  },
-  {
-    icon: Clock,
-    label: "Horário",
-    value: "Segunda a Sexta, 8h às 18h",
     href: null,
   },
 ];
