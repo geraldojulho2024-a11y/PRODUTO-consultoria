@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center mb-4">
-              <img src={logoBranco} alt="PRODUTO Consultoria" className="h-10" />
+              <img src={logoBranco} alt="PRODUTO Consultoria" className="h-60" />
             </div>
             <p className="text-primary-foreground/70 leading-relaxed mb-6">
               Mais de 35 anos transformando conhecimento técnico em resultados industriais reais.
