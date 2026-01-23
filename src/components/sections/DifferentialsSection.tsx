@@ -1,6 +1,12 @@
 import { MapPin, Plane, Factory, Lightbulb } from "lucide-react";
 import logoCompleto from "@/assets/logo-completo.png";
-
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 const countries = [
   "Alemanha",
   "França",
@@ -62,10 +68,93 @@ const DifferentialsSection = () => {
                 <span className="text-xs font-semibold text-primary">{item.highlight}</span>
               </div>
               
-              {/* Icon */}
-              <div className="w-14 h-14 rounded-xl bg-gradient-primary shadow-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <item.icon className="w-7 h-7 text-primary-foreground" />
-              </div>
+              {/* Icon - with Dialog for Plane */}
+              {index === 0 ? (
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <div className="w-14 h-14 rounded-xl bg-gradient-primary shadow-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 cursor-pointer">
+                      <item.icon className="w-7 h-7 text-primary-foreground" />
+                    </div>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-3xl">
+                    <DialogHeader>
+                      <DialogTitle className="text-2xl font-bold text-foreground">
+                        Experiência e Visão Internacional
+                      </DialogTitle>
+                    </DialogHeader>
+                    <div className="grid md:grid-cols-2 gap-8 mt-4">
+                      {/* Left Column - Countries */}
+                      <div>
+                        <p className="text-muted-foreground mb-4">
+                          Nossa atuação é sustentada por uma sólida experiência internacional, adquirida ao longo de inúmeras missões técnicas e projetos no exterior, com destaque para:
+                        </p>
+                        <ul className="space-y-2 text-foreground">
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            Alemanha
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            França
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            Estados Unidos
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            Espanha
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            Portugal
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            <span><strong>China</strong> (mais de 20 viagens técnicas)</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            E outros
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      {/* Right Column - China Activities */}
+                      <div>
+                        <p className="font-semibold text-foreground mb-4">
+                          Na China, participamos ativamente de:
+                        </p>
+                        <ul className="space-y-2 text-foreground mb-6">
+                          <li className="flex items-start gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
+                            Feiras internacionais
+                          </li>
+                          <li className="flex items-start gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
+                            Desenvolvimento e avaliação de fornecedores de produtos e equipamentos
+                          </li>
+                          <li className="flex items-start gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
+                            Apoio técnico na construção de moldes
+                          </li>
+                          <li className="flex items-start gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
+                            Orientação para produção de peças em termoplástico e silicone líquido (LSR)
+                          </li>
+                        </ul>
+                        <p className="text-muted-foreground text-sm italic">
+                          Isso nos mantém atualizados com as tecnologias mais avançadas do mercado, prontos para transferir esse conhecimento aos nossos clientes.
+                        </p>
+                      </div>
+                    </div>
+                  </DialogContent>
+                </Dialog>
+              ) : (
+                <div className="w-14 h-14 rounded-xl bg-gradient-primary shadow-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                  <item.icon className="w-7 h-7 text-primary-foreground" />
+                </div>
+              )}
               
               {/* Content */}
               <h3 className="font-display font-bold text-xl text-foreground mb-3">
