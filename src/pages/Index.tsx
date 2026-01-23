@@ -1,5 +1,5 @@
 import Header from "@/components/layout/Header";
-import HeroSection from "@/components/sections/HeroSection";
+import ImageCarousel from "@/components/sections/ImageCarousel";
 import AboutSection from "@/components/sections/AboutSection";
 import DifferentialsSection from "@/components/sections/DifferentialsSection";
 import ServicesSection from "@/components/sections/ServicesSection";
