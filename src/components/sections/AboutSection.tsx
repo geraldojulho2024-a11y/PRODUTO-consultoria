@@ -9,7 +9,7 @@ const features = [
   {
     icon: Globe,
     title: "Atuação Global",
-    description: "Projetos em Alemanha, EUA, China e mais de 7 países",
+    description: "Missões técnicas e projetos na Europa, EUA, China e mais de 7 países",
   },
   {
     icon: Users,
