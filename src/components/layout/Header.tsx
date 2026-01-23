@@ -44,9 +44,7 @@ const Header = () => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <a href="#inicio" className="flex items-center gap-2">
-          <span className={cn("font-display text-2xl font-bold tracking-tight transition-colors", isScrolled ? "text-primary" : "text-primary-foreground")}>
-            PRODUTO
-          </span>
+          
           
         </a>
 
