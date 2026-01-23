@@ -1,4 +1,5 @@
 import { Award, Users, Globe, Target } from "lucide-react";
+import fotoAndre from "@/assets/foto-andre.png";
 const features = [{
   icon: Award,
   title: "35+ Anos",
@@ -37,8 +38,8 @@ const AboutSection = () => {
 
             <div className="p-6 bg-card rounded-xl border border-border shadow-card mb-8">
               <div className="flex items-start gap-4">
-                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl font-bold text-primary font-display">AS</span>
+                <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+                  <img src={fotoAndre} alt="André Penteado Pires da Silveira" className="w-full h-full object-cover" />
                 </div>
                 <div>
                   <h3 className="font-display font-bold text-lg text-foreground mb-1">
