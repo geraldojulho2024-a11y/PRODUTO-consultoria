@@ -50,7 +50,7 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-8">
-          {navItems.map(item => <button key={item.href} onClick={() => handleNavClick(item.href)} className={cn("text-sm font-medium transition-colors hover:text-primary", isScrolled ? "text-foreground" : "text-primary-foreground/90 hover:text-primary-foreground")}>
+          {navItems.map(item => <button key={item.href} onClick={() => handleNavClick(item.href)} className={cn("text-base font-semibold uppercase tracking-wide transition-colors hover:text-primary", isScrolled ? "text-foreground" : "text-primary-foreground/90 hover:text-primary-foreground")}>
               {item.label}
             </button>)}
         </nav>
