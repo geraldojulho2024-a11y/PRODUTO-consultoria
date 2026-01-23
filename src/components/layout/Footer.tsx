@@ -1,4 +1,6 @@
 import { Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
+import logoBranco from "@/assets/logoBranco.png";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return <footer className="bg-gradient-dark text-primary-foreground py-16">
@@ -6,9 +8,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <span className="font-display text-2xl font-bold tracking-tight">PRODUTO</span>
-              <span className="font-display text-lg font-medium text-primary-foreground/70">consultoria</span>
+            <div className="flex items-center mb-4">
+              <img src={logoBranco} alt="PRODUTO Consultoria" className="h-10" />
             </div>
             <p className="text-primary-foreground/70 leading-relaxed mb-6">
               Mais de 35 anos transformando conhecimento técnico em resultados industriais reais.
