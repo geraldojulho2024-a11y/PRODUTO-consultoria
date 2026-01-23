@@ -63,7 +63,7 @@ const ImageCarousel = () => {
         <img 
           src={logoBranco} 
           alt="PRODUTO Consultoria" 
-          className="h-24 md:h-32 lg:h-40 w-auto drop-shadow-lg"
+          className="h-72 md:h-96 lg:h-[30rem] w-auto drop-shadow-lg"
         />
       </div>
     </section>
