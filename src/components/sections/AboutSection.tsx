@@ -56,6 +56,44 @@ const AboutSection = () => {
               </div>
             </div>
 
+            {/* Ciclo de Desenvolvimento */}
+            <div className="mb-8">
+              <h3 className="font-display font-bold text-xl text-foreground mb-4">
+                Atuamos de forma integrada em todo o ciclo de desenvolvimento de produtos.
+              </h3>
+              
+              <ul className="space-y-3 mb-4">
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                  <span className="text-muted-foreground">
+                    <strong className="text-foreground">Criação do produto</strong> (design, prototipagem, testes, embalagem)
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                  <span className="text-muted-foreground">
+                    <strong className="text-foreground">Criação de ferramentas de produção</strong> (projeto, construção e testes de moldes)
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                  <span className="text-muted-foreground">
+                    <strong className="text-foreground">Automação industrial</strong> (robôs, máscaras, gabaritos, calibradores)
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+                  <span className="text-muted-foreground">
+                    <strong className="text-foreground">Análise de mão de obra</strong> (necessidade, eficiência e otimização)
+                  </span>
+                </li>
+              </ul>
+              
+              <p className="text-muted-foreground leading-relaxed">
+                Além disso, monitoramos, definimos e otimizamos processos industriais, garantindo eficiência, qualidade e redução de custos.
+              </p>
+            </div>
+
             {/* Feature Grid */}
             <div className="grid grid-cols-2 gap-4">
               {features.map(feature => <div key={feature.title} className="p-4 rounded-lg bg-card border border-border hover:shadow-card transition-all duration-300 hover:-translate-y-0.5">
