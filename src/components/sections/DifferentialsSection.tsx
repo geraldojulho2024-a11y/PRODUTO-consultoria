@@ -208,9 +208,46 @@ const DifferentialsSection = () => {
                   </DialogContent>
                 </Dialog>
               ) : (
-                <div className="w-14 h-14 rounded-xl bg-gradient-primary shadow-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <item.icon className="w-7 h-7 text-primary-foreground" />
-                </div>
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <div className="w-14 h-14 rounded-xl bg-gradient-primary shadow-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 cursor-pointer">
+                      <item.icon className="w-7 h-7 text-primary-foreground" />
+                    </div>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-2xl">
+                    <DialogHeader>
+                      <DialogTitle className="text-2xl font-bold text-foreground">
+                        Desenvolvimento de Produtos
+                      </DialogTitle>
+                    </DialogHeader>
+                    <div className="mt-4">
+                      <p className="text-muted-foreground mb-6">
+                        No desenvolvimento de produtos, atuamos de forma estratégica desde a ideia inicial até a produção:
+                      </p>
+                      <ul className="space-y-3 text-foreground mb-6">
+                        <li className="flex items-start gap-2">
+                          <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
+                          Acompanhamento de procedimentos de desenvolvimento de novos produtos
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
+                          Análise crítica dos processos existentes, com sugestões de melhoria
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
+                          Monitoramento do desenvolvimento de peças termoplásticas
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
+                          Apoio na elaboração do conceito de custo do produto
+                        </li>
+                      </ul>
+                      <p className="text-muted-foreground italic">
+                        Nosso foco é garantir viabilidade técnica, qualidade e competitividade.
+                      </p>
+                    </div>
+                  </DialogContent>
+                </Dialog>
               )}
               
               {/* Content */}
