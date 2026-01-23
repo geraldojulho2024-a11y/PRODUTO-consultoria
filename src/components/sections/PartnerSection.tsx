@@ -18,6 +18,9 @@ const PartnerSection = () => {
             </p>
           </div>
 
+          {/* Divider */}
+          <div className="hidden lg:block w-px h-24 bg-border" />
+
           {/* Conecta Mais */}
           <div className="flex flex-col md:flex-row items-center gap-4">
             <img 
