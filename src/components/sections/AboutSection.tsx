@@ -1,31 +1,23 @@
 import { Award, Users, Globe, Target } from "lucide-react";
-
-const features = [
-  {
-    icon: Award,
-    title: "35+ Anos",
-    description: "Experiência transformando conhecimento técnico em resultados",
-  },
-  {
-    icon: Globe,
-    title: "Atuação Global",
-    description: "Missões técnicas e projetos na Europa, EUA, China e mais de 7 países",
-  },
-  {
-    icon: Users,
-    title: "Parceiros",
-    description: "Rede de especialistas para validar e desenvolver projetos",
-  },
-  {
-    icon: Target,
-    title: "Foco em Resultados",
-    description: "Do projeto à liberação comercial com eficiência",
-  },
-];
-
+const features = [{
+  icon: Award,
+  title: "35+ Anos",
+  description: "Experiência transformando conhecimento técnico em resultados"
+}, {
+  icon: Globe,
+  title: "Atuação Global",
+  description: "Missões técnicas e projetos na Europa, EUA, China e mais de 7 países"
+}, {
+  icon: Users,
+  title: "Parceiros",
+  description: "Rede de especialistas para validar e desenvolver projetos"
+}, {
+  icon: Target,
+  title: "Foco em Resultados",
+  description: "Do projeto à liberação comercial com eficiência"
+}];
 const AboutSection = () => {
-  return (
-    <section id="sobre" className="py-24 lg:py-32 bg-gradient-subtle">
+  return <section id="sobre" className="py-24 lg:py-32 bg-gradient-subtle">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
@@ -36,7 +28,7 @@ const AboutSection = () => {
             
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
               Conhecimento Técnico que Gera{" "}
-              <span className="text-primary">Resultados Industriais</span>
+              <span className="text-primary">Produtos </span>
             </h2>
             
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
@@ -67,16 +59,11 @@ const AboutSection = () => {
 
             {/* Feature Grid */}
             <div className="grid grid-cols-2 gap-4">
-              {features.map((feature) => (
-                <div
-                  key={feature.title}
-                  className="p-4 rounded-lg bg-card border border-border hover:shadow-card transition-all duration-300 hover:-translate-y-0.5"
-                >
+              {features.map(feature => <div key={feature.title} className="p-4 rounded-lg bg-card border border-border hover:shadow-card transition-all duration-300 hover:-translate-y-0.5">
                   <feature.icon className="w-8 h-8 text-primary mb-3" />
                   <h4 className="font-display font-semibold text-foreground mb-1">{feature.title}</h4>
                   <p className="text-sm text-muted-foreground">{feature.description}</p>
-                </div>
-              ))}
+                </div>)}
             </div>
           </div>
 
@@ -106,17 +93,12 @@ const AboutSection = () => {
                   </div>
 
                   <div className="space-y-4">
-                    {["Injeção Termoplástica", "Sopro Termoplástico", "Extrusão de Perfis", "Injeção de LSR"].map((item, index) => (
-                      <div
-                        key={item}
-                        className="flex items-center gap-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors"
-                      >
+                    {["Injeção Termoplástica", "Sopro Termoplástico", "Extrusão de Perfis", "Injeção de LSR"].map((item, index) => <div key={item} className="flex items-center gap-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
                         <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
                           <span className="text-sm font-bold text-primary">{index + 1}</span>
                         </div>
                         <span className="text-sm font-medium text-foreground">{item}</span>
-                      </div>
-                    ))}
+                      </div>)}
                   </div>
                 </div>
               </div>
@@ -124,8 +106,6 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
