@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import logoAzul from "@/assets/logoazul.png";
 const navItems = [{
   label: "Início",
   href: "#inicio"
@@ -43,9 +44,8 @@ const Header = () => {
   return <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-background shadow-card py-3">
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
-        <a href="#inicio" className="flex items-center gap-2">
-          
-          
+        <a href="#inicio" className="flex items-center">
+          <img src={logoAzul} alt="PRODUTO Consultoria" className="h-10 w-auto" />
         </a>
 
         {/* Desktop Navigation */}
