@@ -19,7 +19,7 @@ const differentials = [
   },
   {
     icon: Factory,
-    title: "Desenvolvimento de Fornecedores",
+    title: "Rede de profissionais experientes",
     description: "Apoio técnico na construção de moldes e produção de peças na China, garantindo qualidade e competitividade.",
     highlight: "Qualidade global",
   },
