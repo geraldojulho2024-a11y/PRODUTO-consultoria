@@ -27,8 +27,8 @@ const AboutSection = () => {
             </div>
             
             <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
-              Conhecimento Técnico que Gera{" "}
-              <span className="text-primary">Produtos </span>
+              Mais de 35 anos de experiência transformando conhecimento técnico em{" "}
+              <span className="text-primary">resultados industriais reais.</span>
             </h2>
             
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
