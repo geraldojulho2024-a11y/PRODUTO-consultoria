@@ -40,9 +40,9 @@ const DifferentialsSection = () => {
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
             Diferenciais
           </div>
-          <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6 flex flex-wrap items-center justify-center gap-2">
+          <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6 flex flex-wrap items-center justify-center gap-4">
             Por Que Escolher a{" "}
-            <img src={logoCompleto} alt="PRODUTO Consultoria" className="h-12 sm:h-14 lg:h-16 inline-block" />
+            <img src={logoCompleto} alt="PRODUTO Consultoria" className="h-48 sm:h-56 lg:h-64 inline-block" />
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
             Nossa atuação é sustentada por uma sólida experiência internacional, 
