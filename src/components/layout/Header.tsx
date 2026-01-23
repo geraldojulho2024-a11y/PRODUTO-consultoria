@@ -40,7 +40,7 @@ const Header = () => {
       });
     }
   };
-  return <header className={cn("fixed top-0 left-0 right-0 z-50 transition-all duration-300", isScrolled ? "bg-background/95 backdrop-blur-md shadow-card py-3" : "bg-transparent py-5")}>
+  return <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-background shadow-card py-3">
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <a href="#inicio" className="flex items-center gap-2">
@@ -50,14 +50,14 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-8">
-          {navItems.map(item => <button key={item.href} onClick={() => handleNavClick(item.href)} className={cn("text-base font-semibold uppercase tracking-wide transition-colors hover:text-primary", isScrolled ? "text-foreground" : "text-primary-foreground/90 hover:text-primary-foreground")}>
+          {navItems.map(item => <button key={item.href} onClick={() => handleNavClick(item.href)} className="text-base font-semibold uppercase tracking-wide transition-colors hover:text-primary text-foreground">
               {item.label}
             </button>)}
         </nav>
 
         {/* CTA Button */}
         <div className="hidden lg:flex items-center gap-4">
-          <Button variant={isScrolled ? "default" : "heroOutline"} size="default" onClick={() => window.open("https://wa.me/5511941621715?text=Olá! Gostaria de saber mais sobre os serviços da PRODUTO Consultoria.", "_blank")}>
+          <Button variant="default" size="default" onClick={() => window.open("https://wa.me/5511941621715?text=Olá! Gostaria de saber mais sobre os serviços da PRODUTO Consultoria.", "_blank")}>
             <Phone className="w-4 h-4" />
             Fale Conosco
           </Button>
@@ -65,7 +65,7 @@ const Header = () => {
 
         {/* Mobile Menu Button */}
         <button className="lg:hidden p-2" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} aria-label="Toggle menu">
-          {isMobileMenuOpen ? <X className={cn("w-6 h-6", isScrolled ? "text-foreground" : "text-primary-foreground")} /> : <Menu className={cn("w-6 h-6", isScrolled ? "text-foreground" : "text-primary-foreground")} />}
+          {isMobileMenuOpen ? <X className="w-6 h-6 text-foreground" /> : <Menu className="w-6 h-6 text-foreground" />}
         </button>
       </div>
 
