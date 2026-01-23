@@ -30,7 +30,7 @@ const ServicesSection = () => {
   const handleWhatsApp = (service: string) => {
     window.open(`https://wa.me/5511941621715?text=Olá! Gostaria de saber mais sobre o serviço de ${service}.`, "_blank");
   };
-  return <section id="servicos" className="py-24 lg:py-32 bg-gradient-subtle">
+  return <section id="servicos" className="py-16 lg:py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">

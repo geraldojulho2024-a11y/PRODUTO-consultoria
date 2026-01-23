@@ -18,7 +18,7 @@ const features = [{
   description: "Do projeto à liberação comercial com eficiência"
 }];
 const AboutSection = () => {
-  return <section id="sobre" className="py-24 lg:py-32 bg-gradient-subtle">
+  return <section id="sobre" className="py-16 lg:py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
