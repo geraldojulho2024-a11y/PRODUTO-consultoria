@@ -1,37 +1,26 @@
 import { Phone, Mail, MapPin, MessageCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
-const contactInfo = [
-  {
-    icon: Phone,
-    label: "Telefone / WhatsApp",
-    value: "+55 11 94162-1715",
-    href: "tel:+5511941621715",
-  },
-  {
-    icon: Mail,
-    label: "E-mail",
-    value: "andre.silveira@produto-ltda.com",
-    href: "mailto:andre.silveira@produto-ltda.com",
-  },
-  {
-    icon: MapPin,
-    label: "Localização",
-    value: "Jundiaí, SP - Brasil",
-    href: null,
-  },
-];
-
+const contactInfo = [{
+  icon: Phone,
+  label: "Telefone / WhatsApp",
+  value: "+55 11 94162-1715",
+  href: "tel:+5511941621715"
+}, {
+  icon: Mail,
+  label: "E-mail",
+  value: "andre.silveira@produto-ltda.com",
+  href: "mailto:andre.silveira@produto-ltda.com"
+}, {
+  icon: MapPin,
+  label: "Localização",
+  value: "Jundiaí, SP - Brasil",
+  href: null
+}];
 const ContactSection = () => {
   const handleWhatsApp = () => {
-    window.open(
-      "https://wa.me/5511941621715?text=Olá! Gostaria de agendar uma conversa sobre consultoria técnica.",
-      "_blank"
-    );
+    window.open("https://wa.me/5511941621715?text=Olá! Gostaria de agendar uma conversa sobre consultoria técnica.", "_blank");
   };
-
-  return (
-    <section id="contato" className="py-16 lg:py-20 bg-gradient-subtle">
+  return <section id="contato" className="py-16 lg:py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -57,26 +46,17 @@ const ContactSection = () => {
               </h3>
 
               <div className="space-y-6 mb-8">
-                {contactInfo.map((item) => (
-                  <div key={item.label} className="flex items-start gap-4">
+                {contactInfo.map(item => <div key={item.label} className="flex items-start gap-4">
                     <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
                       <item.icon className="w-5 h-5 text-primary" />
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground mb-1">{item.label}</p>
-                      {item.href ? (
-                        <a
-                          href={item.href}
-                          className="font-medium text-foreground hover:text-primary transition-colors"
-                        >
+                      {item.href ? <a href={item.href} className="font-medium text-foreground hover:text-primary transition-colors">
                           {item.value}
-                        </a>
-                      ) : (
-                        <p className="font-medium text-foreground">{item.value}</p>
-                      )}
+                        </a> : <p className="font-medium text-foreground">{item.value}</p>}
                     </div>
-                  </div>
-                ))}
+                  </div>)}
               </div>
 
               {/* Consultant Info */}
@@ -106,29 +86,16 @@ const ContactSection = () => {
                   Pronto para Começar?
                 </h3>
 
-                <p className="text-primary-foreground/80 leading-relaxed mb-8">
-                  Nossa equipe está preparada para entender suas necessidades e propor 
-                  as melhores soluções técnicas para o seu projeto.
-                </p>
+                
 
                 <div className="space-y-4">
-                  <Button
-                    variant="heroOutline"
-                    size="lg"
-                    className="w-full"
-                    onClick={handleWhatsApp}
-                  >
+                  <Button variant="heroOutline" size="lg" className="w-full" onClick={handleWhatsApp}>
                     <Phone className="w-5 h-5" />
                     Falar no WhatsApp
                     <ArrowRight className="w-5 h-5" />
                   </Button>
 
-                  <Button
-                    asChild
-                    variant="ghost"
-                    size="lg"
-                    className="w-full text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
-                  >
+                  <Button asChild variant="ghost" size="lg" className="w-full text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
                     <a href="mailto:andre.silveira@produto-ltda.com">
                       <Mail className="w-5 h-5" />
                       Enviar E-mail
@@ -136,16 +103,12 @@ const ContactSection = () => {
                   </Button>
                 </div>
 
-                <p className="text-sm text-primary-foreground/60 text-center mt-6">
-                  Respondemos em até 24 horas úteis
-                </p>
+                
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactSection;
