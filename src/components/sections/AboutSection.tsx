@@ -32,9 +32,7 @@ const AboutSection = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              Mais de 35 anos de experiência transformando conhecimento técnico em resultados industriais reais. 
-              Atuamos no desenvolvimento de produtos, moldes, automação e otimização de processos em termoplásticos e LSR, 
-              ajudando empresas a ganhar eficiência, reduzir riscos e acelerar o time-to-market.
+              Atuamos no desenvolvimento de produtos, moldes, automação e otimização de processos em termoplásticos e (silicone líquido) LSR, ajudando empresas a ganhar eficiência, reduzir riscos eacelerar o time-to-market.
             </p>
 
             <div className="p-6 bg-card rounded-xl border border-border shadow-card mb-8">
