@@ -32,7 +32,7 @@ const differentials = [
 
 const DifferentialsSection = () => {
   return (
-    <section id="diferenciais" className="py-24 lg:py-32 bg-background">
+    <section id="diferenciais" className="py-16 lg:py-20 bg-background">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">

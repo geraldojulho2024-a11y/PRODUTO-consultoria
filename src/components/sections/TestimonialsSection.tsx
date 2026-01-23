@@ -19,7 +19,7 @@ const testimonials = [
 
 const TestimonialsSection = () => {
   return (
-    <section id="depoimentos" className="py-24 lg:py-32 bg-background">
+    <section id="depoimentos" className="py-16 lg:py-20 bg-background">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
