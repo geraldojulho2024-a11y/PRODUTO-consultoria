@@ -201,6 +201,9 @@ const DifferentialsSection = () => {
                           </li>
                         </ul>
                       </div>
+                      <p className="text-muted-foreground mt-6 italic">
+                        Essa rede de parceiros nos permite desenvolver, acompanhar e validar projetos de produtos e equipamentos com qualidade.
+                      </p>
                     </div>
                   </DialogContent>
                 </Dialog>
