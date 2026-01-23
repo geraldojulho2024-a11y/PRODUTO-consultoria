@@ -150,6 +150,60 @@ const DifferentialsSection = () => {
                     </div>
                   </DialogContent>
                 </Dialog>
+              ) : index === 1 ? (
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <div className="w-14 h-14 rounded-xl bg-gradient-primary shadow-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 cursor-pointer">
+                      <item.icon className="w-7 h-7 text-primary-foreground" />
+                    </div>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-3xl">
+                    <DialogHeader>
+                      <DialogTitle className="text-2xl font-bold text-foreground">
+                        Parceiros
+                      </DialogTitle>
+                    </DialogHeader>
+                    <div className="mt-4">
+                      <p className="text-muted-foreground mb-6">
+                        Ao longo de nossa trajetória, construímos parcerias sólidas e estratégicas com empresas e profissionais altamente especializados nas seguintes áreas:
+                      </p>
+                      <div className="grid md:grid-cols-2 gap-x-8 gap-y-3">
+                        <ul className="space-y-3 text-foreground">
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            Fabricantes de moldes
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            Design e engenharia de moldes
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            Simulação reológica e estrutural
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            Definição e desenvolvimento de produtos
+                          </li>
+                        </ul>
+                        <ul className="space-y-3 text-foreground">
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            Fornecedores de tratamento térmico de aços
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            Fornecedores de sistemas de câmaras quentes
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            Fornecedores de acessórios para moldes
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </DialogContent>
+                </Dialog>
               ) : (
                 <div className="w-14 h-14 rounded-xl bg-gradient-primary shadow-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                   <item.icon className="w-7 h-7 text-primary-foreground" />
