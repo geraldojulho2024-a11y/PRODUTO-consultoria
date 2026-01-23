@@ -38,7 +38,7 @@ const AboutSection = () => {
 
             <div className="p-6 bg-card rounded-xl border border-border shadow-card mb-8">
               <div className="flex items-start gap-4">
-                <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+                <div className="w-32 h-32 rounded-full overflow-hidden flex-shrink-0">
                   <img src={fotoAndre} alt="André Penteado Pires da Silveira" className="w-full h-full object-cover" />
                 </div>
                 <div>
