@@ -14,6 +14,7 @@ import cadImg from "@/assets/carousel/cad.png";
 import networkImg from "@/assets/carousel/network.jpg";
 import moldeImg from "@/assets/carousel/molde.png";
 import pecasImg from "@/assets/carousel/pecas.png";
+import logoBranco from "@/assets/logoBranco.png";
 
 const images = [
   { src: injetoraImg, alt: "Máquina injetora de termoplásticos" },
@@ -25,7 +26,7 @@ const images = [
 
 const ImageCarousel = () => {
   return (
-    <section className="w-full bg-background">
+    <section className="w-full bg-background relative">
       <Carousel
         opts={{
           align: "start",
@@ -56,6 +57,15 @@ const ImageCarousel = () => {
         <CarouselPrevious className="left-4 md:left-8 h-12 w-12 bg-background/80 hover:bg-background border-none" />
         <CarouselNext className="right-4 md:right-8 h-12 w-12 bg-background/80 hover:bg-background border-none" />
       </Carousel>
+      
+      {/* Logo branco fixo sobre o carrossel */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+        <img 
+          src={logoBranco} 
+          alt="PRODUTO Consultoria" 
+          className="h-24 md:h-32 lg:h-40 w-auto drop-shadow-lg"
+        />
+      </div>
     </section>
   );
 };
