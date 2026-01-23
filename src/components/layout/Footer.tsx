@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex items-center mb-4">
               <img src={logoBranco} alt="PRODUTO Consultoria" className="h-60" />
             </div>
-            <p className="text-primary-foreground/70 leading-relaxed mb-6">
+            <p className="text-primary-foreground/70 leading-relaxed mb-6 font-bold">
               Um novo olhar traz resultados surpreendentes!
             </p>
             <div className="flex gap-4">
