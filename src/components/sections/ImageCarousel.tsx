@@ -11,7 +11,7 @@ import Autoplay from "embla-carousel-autoplay";
 
 import injetoraImg from "@/assets/carousel/injetora.png";
 import cadImg from "@/assets/carousel/cad.png";
-import networkImg from "@/assets/carousel/network.jpg";
+import networkImg from "@/assets/carousel/network.png";
 import moldeImg from "@/assets/carousel/molde.png";
 import pecasImg from "@/assets/carousel/pecas.png";
 import logoBranco from "@/assets/logoBranco.png";
