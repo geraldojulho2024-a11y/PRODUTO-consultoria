@@ -57,39 +57,39 @@ const AboutSection = () => {
             </div>
 
             {/* Ciclo de Desenvolvimento */}
-            <div className="mb-8">
-              <h3 className="font-display font-bold text-xl text-foreground mb-4">
+            <div className="mb-8 p-6 bg-gradient-primary rounded-2xl">
+              <h3 className="font-display font-bold text-xl text-primary-foreground mb-4">
                 Atuamos de forma integrada em todo o ciclo de desenvolvimento de produtos.
               </h3>
               
               <ul className="space-y-3 mb-4">
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <span className="text-muted-foreground">
-                    <strong className="text-foreground">Criação do produto</strong> (design, prototipagem, testes, embalagem)
+                  <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
+                  <span className="text-primary-foreground/80">
+                    <strong className="text-primary-foreground">Criação do produto</strong> (design, prototipagem, testes, embalagem)
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <span className="text-muted-foreground">
-                    <strong className="text-foreground">Criação de ferramentas de produção</strong> (projeto, construção e testes de moldes)
+                  <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
+                  <span className="text-primary-foreground/80">
+                    <strong className="text-primary-foreground">Criação de ferramentas de produção</strong> (projeto, construção e testes de moldes)
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <span className="text-muted-foreground">
-                    <strong className="text-foreground">Automação industrial</strong> (robôs, máscaras, gabaritos, calibradores)
+                  <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
+                  <span className="text-primary-foreground/80">
+                    <strong className="text-primary-foreground">Automação industrial</strong> (robôs, máscaras, gabaritos, calibradores)
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-                  <span className="text-muted-foreground">
-                    <strong className="text-foreground">Análise de mão de obra</strong> (necessidade, eficiência e otimização)
+                  <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
+                  <span className="text-primary-foreground/80">
+                    <strong className="text-primary-foreground">Análise de mão de obra</strong> (necessidade, eficiência e otimização)
                   </span>
                 </li>
               </ul>
               
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-primary-foreground/80 leading-relaxed">
                 Além disso, monitoramos, definimos e otimizamos processos industriais, garantindo eficiência, qualidade e redução de custos.
               </p>
             </div>
