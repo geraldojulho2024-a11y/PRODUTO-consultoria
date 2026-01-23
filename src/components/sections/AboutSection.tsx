@@ -32,7 +32,7 @@ const AboutSection = () => {
               <span className="text-primary">resultados industriais reais.</span>
             </h2>
             
-            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6 font-bold">
               Atuamos no desenvolvimento de produtos, moldes, automação e otimização de processos em termoplásticos e (silicone líquido) LSR, ajudando empresas a ganhar eficiência, reduzir riscos eacelerar o time-to-market.
             </p>
 
