@@ -12,7 +12,7 @@ const Footer = () => {
               <img src={logoBranco} alt="PRODUTO Consultoria" className="h-60" />
             </div>
             <p className="text-primary-foreground/70 leading-relaxed mb-6">
-              Mais de 35 anos transformando conhecimento técnico em resultados industriais reais.
+              Um novo olhar traz resultados surpreendentes!
             </p>
             <div className="flex gap-4">
               <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-lg bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors" aria-label="LinkedIn">
