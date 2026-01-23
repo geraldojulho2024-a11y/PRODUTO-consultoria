@@ -42,11 +42,11 @@ const ImageCarousel = () => {
         <CarouselContent className="-ml-0">
           {images.map((image, index) => (
             <CarouselItem key={index} className="pl-0 basis-full">
-              <div className="relative w-full h-[35vh] md:h-[40vh] lg:h-[45vh] overflow-hidden">
+              <div className="relative w-full h-[45vh] md:h-[55vh] lg:h-[60vh] overflow-hidden">
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className="w-full h-full object-cover object-bottom"
+                  className="w-full h-full object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               </div>
