@@ -1,4 +1,4 @@
-import { Package, Wrench, Bot, Users, BarChart3, ArrowRight } from "lucide-react";
+import { Package, Wrench, Bot, Users, BarChart3, ArrowRight, Settings } from "lucide-react";
 import { Button } from "@/components/ui/button";
 const services = [{
   icon: Package,
@@ -25,6 +25,11 @@ const services = [{
   title: "Otimização de Processos",
   description: "Monitoramento, definição e melhoria de processos industriais.",
   features: ["Análise de processos", "Redução de custos", "Controle de qualidade", "KPIs"]
+}, {
+  icon: Settings,
+  title: "Gerenciamento de Ferramentaria",
+  description: "Controle completo de ferramentas, manutenção preventiva e gestão de ativos.",
+  features: ["Inventário de ferramentas", "Manutenção preventiva", "Rastreabilidade", "Gestão de ativos"]
 }];
 const ServicesSection = () => {
   const handleWhatsApp = (service: string) => {
