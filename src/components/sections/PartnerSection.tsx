@@ -26,7 +26,7 @@ const PartnerSection = () => {
             <img 
               src={conectamaisLogo} 
               alt="Conecta Mais Ferramentarias - Fundep" 
-              className="h-24 object-contain"
+              className="h-72 object-contain"
             />
             <p className="text-lg font-semibold text-foreground text-center md:text-left">
               Empresa cadastrada no Conecta Mais - Fundep como Fornecedora e como Assessora.
