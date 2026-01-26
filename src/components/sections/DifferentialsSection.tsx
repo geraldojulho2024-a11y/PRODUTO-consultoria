@@ -1,45 +1,25 @@
 import { MapPin, Plane, Factory, Lightbulb } from "lucide-react";
 import logoCompleto from "@/assets/logo-completo.png";
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
-const countries = [
-  "Alemanha",
-  "França",
-  "Estados Unidos",
-  "Espanha",
-  "Portugal",
-  "China",
-];
-
-const differentials = [
-  {
-    icon: Plane,
-    title: "Experiência Internacional",
-    description: "Missões técnicas em mais de 7 países, incluindo mais de 20 viagens à China para feiras internacionais e desenvolvimento de fornecedores.",
-    highlight: "20+ viagens",
-  },
-  {
-    icon: Factory,
-    title: "Rede de profissionais experientes",
-    description: "Nos permite desenvolver, acompanhar e validar projetos de produtos e equipamentos com qualidade.",
-    highlight: "Qualidade global",
-  },
-  {
-    icon: Lightbulb,
-    title: "Tecnologias Avançadas",
-    description: "Acesso às mais recentes inovações do mercado mundial, prontos para transferir esse conhecimento aos nossos clientes.",
-    highlight: "Inovação contínua",
-  },
-];
-
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+const countries = ["Alemanha", "França", "Estados Unidos", "Espanha", "Portugal", "China"];
+const differentials = [{
+  icon: Plane,
+  title: "Experiência Internacional",
+  description: "Missões técnicas em mais de 7 países, incluindo mais de 20 viagens à China para feiras internacionais e desenvolvimento de fornecedores.",
+  highlight: "20+ viagens"
+}, {
+  icon: Factory,
+  title: "Rede de profissionais experientes",
+  description: "Nos permite desenvolver, acompanhar e validar projetos de produtos e equipamentos com qualidade.",
+  highlight: "Qualidade global"
+}, {
+  icon: Lightbulb,
+  title: "Tecnologias Avançadas",
+  description: "Acesso às mais recentes inovações do mercado mundial, prontos para transferir esse conhecimento aos nossos clientes.",
+  highlight: "Inovação contínua"
+}];
 const DifferentialsSection = () => {
-  return (
-    <section id="diferenciais" className="py-16 lg:py-20 bg-background">
+  return <section id="diferenciais" className="py-16 lg:py-20 bg-background">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -51,26 +31,20 @@ const DifferentialsSection = () => {
             <img src={logoCompleto} alt="PRODUTO Consultoria" className="h-48 sm:h-56 lg:h-64 inline-block" />
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Nossa atuação é sustentada por uma sólida experiência internacional, 
-            adquirida ao longo de inúmeras missões técnicas e projetos no exterior.
+            Nossa atuação é sustentada por uma sólida experiência nacional e internacional, adquirida através de anos de atuação na área, quando tivemos a oportunidade de participar de inúmeras missões técnicas e projetos no exterior, além de ser representante de empresas em várias entidades, como a ABNT, o PBQP-H, Abinfer e outras.
           </p>
         </div>
 
         {/* Differentials Grid */}
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          {differentials.map((item, index) => (
-            <div
-              key={item.title}
-              className="group relative p-8 bg-card rounded-2xl border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-card-hover hover:-translate-y-1"
-            >
+          {differentials.map((item, index) => <div key={item.title} className="group relative p-8 bg-card rounded-2xl border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-card-hover hover:-translate-y-1">
               {/* Highlight Badge */}
               <div className="absolute top-4 right-4 px-3 py-1 bg-primary/10 rounded-full">
                 <span className="text-xs font-semibold text-primary">{item.highlight}</span>
               </div>
               
               {/* Icon - with Dialog for Plane */}
-              {index === 0 ? (
-                <Dialog>
+              {index === 0 ? <Dialog>
                   <DialogTrigger asChild>
                     <div className="w-14 h-14 rounded-xl bg-gradient-primary shadow-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 cursor-pointer">
                       <item.icon className="w-7 h-7 text-primary-foreground" />
@@ -149,9 +123,7 @@ const DifferentialsSection = () => {
                       </div>
                     </div>
                   </DialogContent>
-                </Dialog>
-              ) : index === 1 ? (
-                <Dialog>
+                </Dialog> : index === 1 ? <Dialog>
                   <DialogTrigger asChild>
                     <div className="w-14 h-14 rounded-xl bg-gradient-primary shadow-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 cursor-pointer">
                       <item.icon className="w-7 h-7 text-primary-foreground" />
@@ -206,9 +178,7 @@ const DifferentialsSection = () => {
                       </p>
                     </div>
                   </DialogContent>
-                </Dialog>
-              ) : (
-                <Dialog>
+                </Dialog> : <Dialog>
                   <DialogTrigger asChild>
                     <div className="w-14 h-14 rounded-xl bg-gradient-primary shadow-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300 cursor-pointer">
                       <item.icon className="w-7 h-7 text-primary-foreground" />
@@ -247,8 +217,7 @@ const DifferentialsSection = () => {
                       </p>
                     </div>
                   </DialogContent>
-                </Dialog>
-              )}
+                </Dialog>}
               
               {/* Content */}
               <h3 className="font-display font-bold text-xl text-foreground mb-3">
@@ -257,8 +226,7 @@ const DifferentialsSection = () => {
               <p className="text-muted-foreground leading-relaxed">
                 {item.description}
               </p>
-            </div>
-          ))}
+            </div>)}
         </div>
 
         {/* Countries Section */}
@@ -279,15 +247,10 @@ const DifferentialsSection = () => {
               
               {/* Country Tags */}
               <div className="flex flex-wrap gap-3">
-                {countries.map((country) => (
-                  <div
-                    key={country}
-                    className="inline-flex items-center gap-2 px-4 py-2 bg-primary-foreground/10 backdrop-blur-sm rounded-full border border-primary-foreground/20"
-                  >
+                {countries.map(country => <div key={country} className="inline-flex items-center gap-2 px-4 py-2 bg-primary-foreground/10 backdrop-blur-sm rounded-full border border-primary-foreground/20">
                     <MapPin className="w-4 h-4 text-primary-foreground/70" />
                     <span className="text-sm font-medium text-primary-foreground">{country}</span>
-                  </div>
-                ))}
+                  </div>)}
               </div>
             </div>
             
@@ -313,8 +276,6 @@ const DifferentialsSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default DifferentialsSection;
