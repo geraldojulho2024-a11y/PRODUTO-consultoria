@@ -11,7 +11,7 @@ const PartnerSection = () => {
             <img 
               src={abinferLogo} 
               alt="ABINFER - Associação Brasileira da Indústria de Ferramentais" 
-              className="h-24 object-contain"
+              className="h-48 object-contain"
             />
             <p className="text-lg font-semibold text-foreground text-center md:text-left">
               Empresa associada na Abinfer
