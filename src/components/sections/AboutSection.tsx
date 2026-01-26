@@ -94,9 +94,9 @@ const AboutSection = () => {
               </p>
             </div>
 
-            {/* Feature Grid - First 2 boxes */}
+            {/* Feature Grid */}
             <div className="grid grid-cols-2 gap-4">
-              {features.slice(0, 2).map(feature => <div key={feature.title} className="p-4 rounded-lg bg-card border border-border hover:shadow-card transition-all duration-300 hover:-translate-y-0.5">
+              {features.map(feature => <div key={feature.title} className="p-4 rounded-lg bg-card border border-border hover:shadow-card transition-all duration-300 hover:-translate-y-0.5">
                   <feature.icon className="w-8 h-8 text-primary mb-3" />
                   <h4 className="font-display font-semibold text-foreground mb-1">{feature.title}</h4>
                   <p className="text-sm text-muted-foreground">{feature.description}</p>
@@ -106,7 +106,7 @@ const AboutSection = () => {
 
           {/* Visual Element */}
           <div className="order-1 lg:order-2 relative">
-            <div className="relative max-w-md mx-auto">
+            <div className="relative aspect-square max-w-md mx-auto">
               {/* Decorative Elements */}
               <div className="absolute inset-0 bg-gradient-primary rounded-3xl transform rotate-6 opacity-20" />
               <div className="absolute inset-0 bg-gradient-primary rounded-3xl transform -rotate-3 opacity-10" />
@@ -138,15 +138,6 @@ const AboutSection = () => {
                       </div>)}
                   </div>
                 </div>
-              </div>
-              
-              {/* Feature Grid - Last 2 boxes */}
-              <div className="grid grid-cols-2 gap-4 mt-6">
-                {features.slice(2, 4).map(feature => <div key={feature.title} className="p-4 rounded-lg bg-card border border-border hover:shadow-card transition-all duration-300 hover:-translate-y-0.5">
-                    <feature.icon className="w-8 h-8 text-primary mb-3" />
-                    <h4 className="font-display font-semibold text-foreground mb-1">{feature.title}</h4>
-                    <p className="text-sm text-muted-foreground">{feature.description}</p>
-                  </div>)}
               </div>
             </div>
           </div>
