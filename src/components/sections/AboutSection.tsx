@@ -116,25 +116,25 @@ const AboutSection = () => {
                 <div className="absolute top-0 right-0 w-40 h-40 bg-primary/5 rounded-full -translate-y-1/2 translate-x-1/2" />
                 <div className="absolute bottom-0 left-0 w-32 h-32 bg-secondary/20 rounded-full translate-y-1/2 -translate-x-1/2" />
                 
-                <div className="relative space-y-6">
-                  <div className="text-center mb-8">
-                    <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-primary shadow-primary mb-4">
-                      <Globe className="w-10 h-10 text-primary-foreground" />
+                <div className="relative space-y-8">
+                  <div className="text-center mb-10">
+                    <div className="inline-flex items-center justify-center w-24 h-24 rounded-2xl bg-gradient-primary shadow-primary mb-6">
+                      <Globe className="w-12 h-12 text-primary-foreground" />
                     </div>
-                    <h3 className="font-display font-bold text-xl text-foreground">
+                    <h3 className="font-display font-bold text-4xl lg:text-5xl text-foreground mb-4">
                       Visão Integrada
                     </h3>
-                    <p className="text-muted-foreground text-sm mt-2">
+                    <p className="text-muted-foreground text-xl lg:text-2xl mt-4">
                       Produto, ferramenta, automação e processo
                     </p>
                   </div>
 
-                  <div className="space-y-4">
-                    {["Injeção Termoplástica", "Sopro Termoplástico", "Extrusão de Perfis", "Injeção de LSR"].map((item, index) => <div key={item} className="flex items-center gap-3 p-3 rounded-lg bg-muted/50 hover:bg-muted transition-colors">
-                        <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
-                          <span className="text-sm font-bold text-primary">{index + 1}</span>
+                  <div className="space-y-5">
+                    {["Injeção Termoplástica", "Sopro Termoplástico", "Extrusão de Perfis", "Injeção de LSR"].map((item, index) => <div key={item} className="flex items-center gap-4 p-5 rounded-xl bg-muted/50 hover:bg-muted transition-colors">
+                        <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center">
+                          <span className="text-2xl font-bold text-primary">{index + 1}</span>
                         </div>
-                        <span className="text-sm font-medium text-foreground">{item}</span>
+                        <span className="text-xl lg:text-2xl font-semibold text-foreground">{item}</span>
                       </div>)}
                   </div>
                 </div>
