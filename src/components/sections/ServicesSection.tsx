@@ -39,7 +39,7 @@ const ServicesSection = () => {
           </div>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
             Do Projeto à{" "}
-            <span className="text-primary">Liberação Comercial</span>
+            <span className="text-primary">Liberação para a produção </span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
             Atuamos de forma integrada em todo o ciclo de desenvolvimento do produto, 
