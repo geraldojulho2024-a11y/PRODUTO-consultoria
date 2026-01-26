@@ -59,7 +59,7 @@ const ImageCarousel = () => {
       </Carousel>
       
       {/* Logo branco fixo sobre o carrossel */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+      <div className="absolute inset-0 flex items-end justify-center pb-8 md:pb-12 pointer-events-none">
         <img 
           src={logoBranco} 
           alt="PRODUTO Consultoria" 
