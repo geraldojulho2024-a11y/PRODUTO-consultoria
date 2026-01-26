@@ -95,7 +95,7 @@ const AboutSection = () => {
             </div>
 
             {/* Feature Grid */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
               {features.map(feature => <div key={feature.title} className="p-4 rounded-lg bg-card border border-border hover:shadow-card transition-all duration-300 hover:-translate-y-0.5">
                   <feature.icon className="w-8 h-8 text-primary mb-3" />
                   <h4 className="font-display font-semibold text-foreground mb-1">{feature.title}</h4>
