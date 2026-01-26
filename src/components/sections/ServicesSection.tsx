@@ -29,7 +29,7 @@ const services = [{
   icon: Settings,
   title: "Gerenciamento de Ferramentaria",
   description: "Controle completo de ferramentas, manutenção preventiva e gestão de ativos.",
-  features: ["Inventário de ferramentas", "Manutenção preventiva", "Rastreabilidade", "Gestão de ativos"]
+  features: ["Testes de moldes", "Análise de correções e melhoria das peças", "Avaliação técnica de moldes de injeção, sopro e extrusão"]
 }];
 const ServicesSection = () => {
   const handleWhatsApp = (service: string) => {
