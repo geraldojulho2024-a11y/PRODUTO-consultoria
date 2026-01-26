@@ -16,9 +16,6 @@ const navItems = [{
   label: "Serviços",
   href: "#servicos"
 }, {
-  label: "Depoimentos",
-  href: "#depoimentos"
-}, {
   label: "Contato",
   href: "#contato"
 }];
