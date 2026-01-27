@@ -25,7 +25,7 @@ const PartnerSection = () => {
 
           {/* Conecta Mais */}
           <div className="flex flex-col md:flex-row items-center gap-0 md:gap-4">
-            <div className="h-56 md:h-72 overflow-hidden">
+            <div className="h-56 md:h-72 overflow-hidden md:mt-8">
               <img 
                 src={conectamaisLogo} 
                 alt="Conecta Mais Ferramentarias - Fundep" 
