@@ -32,7 +32,7 @@ const PartnerSection = () => {
                 className="h-72 md:h-72 object-contain object-top"
               />
             </div>
-            <p className="text-lg font-semibold text-foreground text-center md:text-left -mt-6 md:mt-0">
+            <p className="text-lg font-semibold text-foreground text-center md:text-left -mt-12 md:mt-0">
               Empresa cadastrada no Conecta Mais - Fundep como Fornecedora e como Assessora.
             </p>
           </div>
