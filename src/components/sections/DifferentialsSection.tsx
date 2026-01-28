@@ -52,17 +52,17 @@ const DifferentialsSection = () => {
                   </DialogTrigger>
                   <DialogContent className="max-w-5xl">
                     <DialogHeader>
-                      <DialogTitle className="text-2xl font-bold text-foreground">
+                      <DialogTitle className="text-3xl font-bold text-foreground">
                         Experiência e Visão Internacional
                       </DialogTitle>
                     </DialogHeader>
                     <div className="grid md:grid-cols-2 gap-8 mt-4">
                       {/* Left Column - Countries */}
                       <div>
-                        <p className="text-muted-foreground mb-4">
+                        <p className="text-muted-foreground mb-4 text-lg">
                           Nossa atuação é sustentada por uma sólida experiência internacional, adquirida ao longo de inúmeras missões técnicas e projetos no exterior, com destaque para:
                         </p>
-                        <ul className="space-y-2 text-foreground">
+                        <ul className="space-y-2 text-foreground text-lg">
                           <li className="flex items-center gap-2">
                             <span className="w-1.5 h-1.5 rounded-full bg-primary" />
                             Alemanha
@@ -96,10 +96,10 @@ const DifferentialsSection = () => {
                       
                       {/* Right Column - China Activities */}
                       <div>
-                        <p className="font-semibold text-foreground mb-4">
+                        <p className="font-semibold text-foreground mb-4 text-lg">
                           Na China, participamos ativamente de:
                         </p>
-                        <ul className="space-y-2 text-foreground mb-6">
+                        <ul className="space-y-2 text-foreground mb-6 text-lg">
                           <li className="flex items-start gap-2">
                             <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
                             Feiras internacionais
@@ -117,7 +117,7 @@ const DifferentialsSection = () => {
                             Orientação para produção de peças em termoplástico e silicone líquido (LSR)
                           </li>
                         </ul>
-                        <p className="text-muted-foreground text-sm italic">
+                        <p className="text-muted-foreground text-base italic">
                           Isso nos mantém atualizados com as tecnologias mais avançadas do mercado, prontos para transferir esse conhecimento aos nossos clientes.
                         </p>
                       </div>
@@ -131,16 +131,16 @@ const DifferentialsSection = () => {
                   </DialogTrigger>
                   <DialogContent className="max-w-5xl">
                     <DialogHeader>
-                      <DialogTitle className="text-2xl font-bold text-foreground">
+                      <DialogTitle className="text-3xl font-bold text-foreground">
                         Parceiros
                       </DialogTitle>
                     </DialogHeader>
                     <div className="mt-4">
-                      <p className="text-muted-foreground mb-6">
+                      <p className="text-muted-foreground mb-6 text-lg">
                         Ao longo de nossa trajetória, construímos parcerias sólidas e estratégicas com empresas e profissionais altamente especializados nas seguintes áreas:
                       </p>
                       <div className="grid md:grid-cols-2 gap-x-8 gap-y-3">
-                        <ul className="space-y-3 text-foreground">
+                        <ul className="space-y-3 text-foreground text-lg">
                           <li className="flex items-center gap-2">
                             <span className="w-1.5 h-1.5 rounded-full bg-primary" />
                             Fabricantes de moldes
@@ -158,7 +158,7 @@ const DifferentialsSection = () => {
                             Definição e desenvolvimento de produtos
                           </li>
                         </ul>
-                        <ul className="space-y-3 text-foreground">
+                        <ul className="space-y-3 text-foreground text-lg">
                           <li className="flex items-center gap-2">
                             <span className="w-1.5 h-1.5 rounded-full bg-primary" />
                             Fornecedores de tratamento térmico de aços
@@ -173,7 +173,7 @@ const DifferentialsSection = () => {
                           </li>
                         </ul>
                       </div>
-                      <p className="text-muted-foreground mt-6 italic">
+                      <p className="text-muted-foreground mt-6 italic text-base">
                         Essa rede de parceiros nos permite desenvolver, acompanhar e validar projetos de produtos e equipamentos com qualidade.
                       </p>
                     </div>
@@ -186,15 +186,15 @@ const DifferentialsSection = () => {
                   </DialogTrigger>
                   <DialogContent className="max-w-4xl">
                     <DialogHeader>
-                      <DialogTitle className="text-2xl font-bold text-foreground">
+                      <DialogTitle className="text-3xl font-bold text-foreground">
                         Desenvolvimento de Produtos
                       </DialogTitle>
                     </DialogHeader>
                     <div className="mt-4">
-                      <p className="text-muted-foreground mb-6">
+                      <p className="text-muted-foreground mb-6 text-lg">
                         No desenvolvimento de produtos, atuamos de forma estratégica desde a ideia inicial até a produção:
                       </p>
-                      <ul className="space-y-3 text-foreground mb-6">
+                      <ul className="space-y-3 text-foreground mb-6 text-lg">
                         <li className="flex items-start gap-2">
                           <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
                           Acompanhamento de procedimentos de desenvolvimento de novos produtos
@@ -212,7 +212,7 @@ const DifferentialsSection = () => {
                           Apoio na elaboração do conceito de custo do produto
                         </li>
                       </ul>
-                      <p className="text-muted-foreground italic">
+                      <p className="text-muted-foreground italic text-base">
                         Nosso foco é garantir viabilidade técnica, qualidade e competitividade.
                       </p>
                     </div>
