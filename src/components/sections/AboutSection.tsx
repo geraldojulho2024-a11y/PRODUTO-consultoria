@@ -104,25 +104,25 @@ const AboutSection = () => {
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
                   <span className="text-primary-foreground/80">
-                    Conceito de Custos (acompanhamento e orientação)
+                    <strong className="text-primary-foreground">Conceito de Custos</strong> (acompanhamento e orientação)
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
                   <span className="text-primary-foreground/80">
-                    Projetos de ferramentas e moldes de injeção e sopro (acompanhar, orientar ou identificar fornecedores)
+                    <strong className="text-primary-foreground">Projetos de ferramentas e moldes de injeção e sopro</strong> (acompanhar, orientar ou identificar fornecedores)
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
                   <span className="text-primary-foreground/80">
-                    Projetos de moldes de injeção de silicone líquido (LSR)
+                    <strong className="text-primary-foreground">Projetos de moldes de injeção de silicone líquido</strong> (LSR)
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
                   <span className="text-primary-foreground/80">
-                    Projetos de ferramentas para extrusão de perfis em termoplástico
+                    <strong className="text-primary-foreground">Projetos de ferramentas para extrusão de perfis em termoplástico</strong>
                   </span>
                 </li>
               </ul>
