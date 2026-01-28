@@ -187,34 +187,44 @@ const DifferentialsSection = () => {
                   <DialogContent className="max-w-4xl">
                     <DialogHeader>
                       <DialogTitle className="text-3xl font-bold text-foreground">
-                        Desenvolvimento de Produtos
+                        Constante atualização técnica
                       </DialogTitle>
                     </DialogHeader>
                     <div className="mt-4">
-                      <p className="text-muted-foreground mb-6 text-lg">
-                        No desenvolvimento de produtos, atuamos de forma estratégica desde a ideia inicial até a produção:
-                      </p>
-                      <ul className="space-y-3 text-foreground mb-6 text-lg">
+                      <ul className="space-y-3 text-foreground text-lg">
                         <li className="flex items-start gap-2">
                           <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
-                          Acompanhamento de procedimentos de desenvolvimento de novos produtos
+                          Presença em feiras e eventos técnicos
                         </li>
                         <li className="flex items-start gap-2">
                           <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
-                          Análise crítica dos processos existentes, com sugestões de melhoria
+                          <div>
+                            Contato permanente com novas tecnologias
+                            <ul className="ml-6 mt-2 space-y-2">
+                              <li className="flex items-start gap-2">
+                                <span className="w-1.5 h-1.5 rounded-full bg-primary/60 mt-2" />
+                                Materiais e tratamentos
+                              </li>
+                              <li className="flex items-start gap-2">
+                                <span className="w-1.5 h-1.5 rounded-full bg-primary/60 mt-2" />
+                                Processos de produção
+                              </li>
+                              <li className="flex items-start gap-2">
+                                <span className="w-1.5 h-1.5 rounded-full bg-primary/60 mt-2" />
+                                Equipamentos
+                              </li>
+                            </ul>
+                          </div>
                         </li>
                         <li className="flex items-start gap-2">
                           <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
-                          Monitoramento do desenvolvimento de peças termoplásticas
+                          Gestão
                         </li>
                         <li className="flex items-start gap-2">
                           <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
-                          Apoio na elaboração do conceito de custo do produto
+                          Projetos de ferramental de transformação de termoplástico
                         </li>
                       </ul>
-                      <p className="text-muted-foreground italic text-base">
-                        Nosso foco é garantir viabilidade técnica, qualidade e competitividade.
-                      </p>
                     </div>
                   </DialogContent>
                 </Dialog>}
