@@ -26,7 +26,7 @@ const images = [
 
 const ImageCarousel = () => {
   return (
-    <section className="w-full bg-background relative">
+    <section className="w-full bg-background relative pt-32 md:pt-40">
       <Carousel
         opts={{
           align: "start",
