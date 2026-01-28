@@ -154,7 +154,7 @@ const AboutSection = () => {
                 <div className="absolute top-0 right-0 w-40 h-40 bg-primary/5 rounded-full -translate-y-1/2 translate-x-1/2" />
                 <div className="absolute bottom-0 left-0 w-32 h-32 bg-secondary/20 rounded-full translate-y-1/2 -translate-x-1/2" />
                 
-                <div className="relative space-y-8 pt-16">
+                <div className="relative space-y-8 pt-28">
                   <div className="text-center mb-10">
                     <div className="inline-flex items-center justify-center w-24 h-24 rounded-2xl bg-gradient-primary shadow-primary mb-6">
                       <Globe className="w-12 h-12 text-primary-foreground" />
