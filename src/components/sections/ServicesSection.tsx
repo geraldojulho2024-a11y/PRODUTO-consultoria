@@ -47,8 +47,7 @@ const ServicesSection = () => {
             <span className="text-primary">Liberação para a produção </span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Atuamos de forma integrada em todo o ciclo de desenvolvimento do produto, 
-            desde o início do projeto até a liberação comercial.
+            Atuamos de forma integrada em todo o ciclo de desenvolvimento do produto, desde o início do projeto até a liberação para a produção.
           </p>
         </div>
 
