@@ -130,7 +130,7 @@ const AboutSection = () => {
                   </div>
 
                   <div className="space-y-5">
-                    {["Injeção Termoplástica", "Sopro Termoplástico", "Extrusão de Perfis", "Injeção de LSR"].map((item, index) => <div key={item} className="flex items-center gap-4 p-5 rounded-xl bg-muted/50 hover:bg-muted transition-colors">
+                    {["Transformação de Termoplástico", "Sopro Termoplástico", "Extrusão de Perfis", "Injeção de LSR"].map((item, index) => <div key={item} className="flex items-center gap-4 p-5 rounded-xl bg-muted/50 hover:bg-muted transition-colors">
                         <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center">
                           <span className="text-2xl font-bold text-primary">{index + 1}</span>
                         </div>
