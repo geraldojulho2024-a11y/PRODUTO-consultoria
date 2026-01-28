@@ -43,7 +43,7 @@ const ImageCarousel = () => {
         <CarouselContent className="-ml-0">
           {images.map((image, index) => (
             <CarouselItem key={index} className="pl-0 basis-full">
-              <div className="relative w-full h-[45vh] md:h-[55vh] lg:h-[60vh] overflow-hidden">
+              <div className="relative w-full h-[35vh] md:h-[40vh] lg:h-[45vh] overflow-hidden">
                 <img
                   src={image.src}
                   alt={image.alt}
@@ -59,11 +59,11 @@ const ImageCarousel = () => {
       </Carousel>
       
       {/* Logo branco fixo sobre o carrossel */}
-      <div className="absolute inset-0 flex items-end justify-center pb-8 md:pb-12 pointer-events-none">
+      <div className="absolute inset-0 flex items-end justify-center pb-6 md:pb-8 pointer-events-none">
         <img 
           src={logoBranco} 
           alt="PRODUTO Consultoria" 
-          className="h-72 md:h-96 lg:h-[30rem] w-auto drop-shadow-lg"
+          className="h-48 md:h-64 lg:h-80 w-auto drop-shadow-lg"
         />
       </div>
     </section>
