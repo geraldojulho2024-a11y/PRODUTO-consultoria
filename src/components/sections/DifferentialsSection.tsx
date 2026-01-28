@@ -50,7 +50,7 @@ const DifferentialsSection = () => {
                       <item.icon className="w-7 h-7 text-primary-foreground" />
                     </div>
                   </DialogTrigger>
-                  <DialogContent className="max-w-3xl">
+                  <DialogContent className="max-w-5xl">
                     <DialogHeader>
                       <DialogTitle className="text-2xl font-bold text-foreground">
                         Experiência e Visão Internacional
@@ -129,7 +129,7 @@ const DifferentialsSection = () => {
                       <item.icon className="w-7 h-7 text-primary-foreground" />
                     </div>
                   </DialogTrigger>
-                  <DialogContent className="max-w-3xl">
+                  <DialogContent className="max-w-5xl">
                     <DialogHeader>
                       <DialogTitle className="text-2xl font-bold text-foreground">
                         Parceiros
@@ -184,7 +184,7 @@ const DifferentialsSection = () => {
                       <item.icon className="w-7 h-7 text-primary-foreground" />
                     </div>
                   </DialogTrigger>
-                  <DialogContent className="max-w-2xl">
+                  <DialogContent className="max-w-4xl">
                     <DialogHeader>
                       <DialogTitle className="text-2xl font-bold text-foreground">
                         Desenvolvimento de Produtos
