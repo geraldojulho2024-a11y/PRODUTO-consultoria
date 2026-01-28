@@ -96,7 +96,7 @@ const AboutSection = () => {
 
             {/* Otimização de processos e gestão de FERRAMENTARIA */}
             <div className="mb-8 p-6 bg-gradient-primary rounded-2xl">
-              <h3 className="font-display font-bold text-xl text-primary-foreground mb-4">
+              <h3 className="font-display font-bold text-xl text-white mb-4">
                 Otimização de processos e gestão de FERRAMENTARIA
               </h3>
               
