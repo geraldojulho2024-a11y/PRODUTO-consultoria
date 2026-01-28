@@ -94,6 +94,44 @@ const AboutSection = () => {
               </p>
             </div>
 
+            {/* Otimização de processos e gestão de FERRAMENTARIA */}
+            <div className="mb-8 p-6 bg-gradient-primary rounded-2xl">
+              <h3 className="font-display font-bold text-xl text-primary-foreground mb-4">
+                Otimização de processos e gestão de FERRAMENTARIA
+              </h3>
+              
+              <ul className="space-y-3 mb-4">
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
+                  <span className="text-primary-foreground/80">
+                    Conceito de Custos (acompanhamento e orientação)
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
+                  <span className="text-primary-foreground/80">
+                    Projetos de ferramentas e moldes de injeção e sopro (acompanhar, orientar ou identificar fornecedores)
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
+                  <span className="text-primary-foreground/80">
+                    Projetos de moldes de injeção de silicone líquido (LSR)
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
+                  <span className="text-primary-foreground/80">
+                    Projetos de ferramentas para extrusão de perfis em termoplástico
+                  </span>
+                </li>
+              </ul>
+              
+              <p className="text-primary-foreground/80 leading-relaxed">
+                Todo o acompanhamento é feito principalmente presencial. Correções e melhorias em peças, avaliação técnica de moldes e soluções técnicas avançadas, fruto de décadas de experiência.
+              </p>
+            </div>
+
             {/* Feature Grid */}
             <div className="grid grid-cols-2 gap-4">
               {features.map(feature => <div key={feature.title} className="p-4 rounded-lg bg-card border border-border hover:shadow-card transition-all duration-300 hover:-translate-y-0.5">
