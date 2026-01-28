@@ -38,7 +38,7 @@ const Header = () => {
       });
     }
   };
-  return <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-background/90 backdrop-blur-sm shadow-card py-10">
+  return <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-background/60 backdrop-blur-sm shadow-card py-10">
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <a href="#inicio" className="flex items-center">
