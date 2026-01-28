@@ -103,26 +103,26 @@ const AboutSection = () => {
               <ul className="space-y-3 mb-4">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
-                  <span className="text-primary-foreground/80">
-                    <strong className="text-primary-foreground">Conceito de Custos</strong> (acompanhamento e orientação)
+                  <span className="text-primary-foreground">
+                    <strong className="text-primary-foreground">Gestão de pessoas</strong>
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
-                  <span className="text-primary-foreground/80">
-                    <strong className="text-primary-foreground">Projetos de ferramentas e moldes de injeção e sopro</strong> (acompanhar, orientar ou identificar fornecedores)
+                  <span className="text-primary-foreground">
+                    <strong className="text-primary-foreground">Otimização de processos administrativos e técnicos</strong>
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
-                  <span className="text-primary-foreground/80">
-                    <strong className="text-primary-foreground">Projetos de moldes de injeção de silicone líquido</strong> (LSR)
+                  <span className="text-primary-foreground">
+                    <strong className="text-primary-foreground">Custeio</strong>
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-primary-foreground mt-2 flex-shrink-0" />
-                  <span className="text-primary-foreground/80">
-                    <strong className="text-primary-foreground">Projetos de ferramentas para extrusão de perfis em termoplástico</strong>
+                  <span className="text-primary-foreground">
+                    <strong className="text-primary-foreground">Equipamentos</strong>
                   </span>
                 </li>
               </ul>
