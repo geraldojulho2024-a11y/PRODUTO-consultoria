@@ -128,7 +128,7 @@ const AboutSection = () => {
               </ul>
               
               <p className="text-primary-foreground/80 leading-relaxed">
-                Todo o acompanhamento é feito principalmente presencial. Correções e melhorias em peças, avaliação técnica de moldes e soluções técnicas avançadas, fruto de décadas de experiência.
+                Todo o acompanhamento é feito prioritáriamente de forma presencial. Correções e melhorias em peças, avaliação técnica de moldes e soluções técnicas avançadas, fruto de décadas de experiência.
               </p>
             </div>
 
