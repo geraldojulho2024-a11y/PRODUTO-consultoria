@@ -59,7 +59,7 @@ const AboutSection = () => {
             {/* Ciclo de Desenvolvimento */}
             <div className="mb-8 p-6 bg-gradient-primary rounded-2xl">
               <h3 className="font-display font-bold text-xl text-primary-foreground mb-4">
-                Atuamos de forma integrada em todo o ciclo de desenvolvimento de produtos.
+                Atuamos de forma integrada em todo o CICLO DE DESENVOLVIMENTO DE PRODUTOS.
               </h3>
               
               <ul className="space-y-3 mb-4">
