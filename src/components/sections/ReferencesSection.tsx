@@ -1,4 +1,5 @@
 import { Quote } from "lucide-react";
+import astraLogo from "@/assets/logos/astra.png";
 
 const references = [
   {
@@ -8,7 +9,7 @@ const references = [
     role: "CEO da Astra S/A Industria e Comércio",
     content: "Trabalhei com o André por 20 anos. Em muitas ocasiões bastante próximo para perceber quão técnico e focado em melhoria ele é. Sempre tentando melhorar as coisas e buscando soluções para que isso ocorresse. Sem contar o lado ético, disso não se questiona com o André.",
     initials: "AG",
-    logo: null, // Placeholder para logo futuro
+    logo: astraLogo,
   },
   {
     company: "Kolplast CI Ltda",
