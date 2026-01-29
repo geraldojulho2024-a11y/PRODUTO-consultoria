@@ -54,8 +54,6 @@ const ImageCarousel = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-4 md:left-8 h-12 w-12 bg-background/80 hover:bg-background border-none" />
-        <CarouselNext className="right-4 md:right-8 h-12 w-12 bg-background/80 hover:bg-background border-none" />
       </Carousel>
       
       {/* Logo branco fixo sobre o carrossel */}
