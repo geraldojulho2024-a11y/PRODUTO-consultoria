@@ -1,5 +1,6 @@
 import { Quote } from "lucide-react";
 import astraLogo from "@/assets/logos/astra.png";
+import kolplastLogo from "@/assets/logos/kolplast.png";
 
 const references = [
   {
@@ -18,7 +19,7 @@ const references = [
     role: "Gerente Industrial",
     content: "Como Gerente Industrial, recomendo o trabalho deste consultor em ferramentaria e moldes plásticos. Profissional experiente, com amplo conhecimento técnico e visão prática da indústria. Destaca-se pela disponibilidade em ajudar, pela busca constante de alternativas eficientes e pelo alto nível de comprometimento na entrega de resultados.",
     initials: "RG",
-    logo: null,
+    logo: kolplastLogo,
   },
   {
     company: "Martiplast Industria e Comércio de Plasticos Ltda",
