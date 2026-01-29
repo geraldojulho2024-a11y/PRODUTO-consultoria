@@ -13,6 +13,9 @@ const navItems = [{
   label: "Diferenciais",
   href: "#diferenciais"
 }, {
+  label: "Referências",
+  href: "#referencias"
+}, {
   label: "Serviços",
   href: "#servicos"
 }, {
