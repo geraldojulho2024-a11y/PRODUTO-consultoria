@@ -31,6 +31,7 @@ const references = [
     content: "Sempre foi um trabalho bem profissional, embasado em muita experiência teórica e técnica, com amplo conhecimento e vivência em desenvolvimento de produtos e moldes de injeção.",
     initials: "NM",
     logo: martiplastLogo,
+    logoLarge: true,
   },
   {
     company: "PKW Texturas Ltda",
@@ -40,6 +41,7 @@ const references = [
     content: "Trabalhei com o André por muitos anos e sempre mantivemos um relacionamento profissional sólido e confiável. Ao longo desse período, ele atendeu plenamente às demandas administrativas e técnicas, demonstrando ética, correção e elevado nível de competência.",
     initials: "JL",
     logo: pkwLogo,
+    logoLarge: true,
   },
 ];
 
@@ -77,12 +79,12 @@ const ReferencesSection = () => {
 
               {/* Company Logo Placeholder */}
               <div className="flex items-center gap-4 mb-4 pt-2">
-                <div className="w-16 h-16 rounded-lg bg-muted border border-border flex items-center justify-center overflow-hidden">
+                <div className={`rounded-lg bg-muted border border-border flex items-center justify-center overflow-hidden ${reference.logoLarge ? 'w-24 h-20' : 'w-16 h-16'}`}>
                   {reference.logo ? (
                     <img 
                       src={reference.logo} 
                       alt={`Logo ${reference.company}`} 
-                      className="w-full h-full object-contain p-2"
+                      className={`w-full h-full object-contain ${reference.logoLarge ? 'p-1' : 'p-2'}`}
                     />
                   ) : (
                     <span className="text-xs text-muted-foreground text-center px-1">Logo</span>
