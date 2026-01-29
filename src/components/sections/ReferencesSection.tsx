@@ -2,6 +2,7 @@ import { Quote } from "lucide-react";
 import astraLogo from "@/assets/logos/astra.png";
 import kolplastLogo from "@/assets/logos/kolplast.png";
 import martiplastLogo from "@/assets/logos/martiplast.png";
+import pkwLogo from "@/assets/logos/pkw.png";
 
 const references = [
   {
@@ -38,7 +39,7 @@ const references = [
     role: "Diretor Técnico",
     content: "Trabalhei com o André por muitos anos e sempre mantivemos um relacionamento profissional sólido e confiável. Ao longo desse período, ele atendeu plenamente às demandas administrativas e técnicas, demonstrando ética, correção e elevado nível de competência.",
     initials: "JL",
-    logo: null,
+    logo: pkwLogo,
   },
 ];
 
