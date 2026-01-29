@@ -1,6 +1,7 @@
 import { Quote } from "lucide-react";
 import astraLogo from "@/assets/logos/astra.png";
 import kolplastLogo from "@/assets/logos/kolplast.png";
+import martiplastLogo from "@/assets/logos/martiplast.png";
 
 const references = [
   {
@@ -28,7 +29,7 @@ const references = [
     role: "Diretor de Desenvolvimento",
     content: "Sempre foi um trabalho bem profissional, embasado em muita experiência teórica e técnica, com amplo conhecimento e vivência em desenvolvimento de produtos e moldes de injeção.",
     initials: "NM",
-    logo: null,
+    logo: martiplastLogo,
   },
   {
     company: "PKW Texturas Ltda",
