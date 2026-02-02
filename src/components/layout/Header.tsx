@@ -57,7 +57,7 @@ const Header = () => {
 
       {/* CTA Button */}
       <div className="hidden lg:flex items-center gap-4">
-        <Button variant="default" size="default" onClick={() => window.open("https://wa.me/5511941621715?text=Olá! Gostaria de saber mais sobre os serviços da PRODUTO Consultoria.", "_blank")}>
+        <Button variant="whatsapp" size="default" onClick={() => window.open("https://wa.me/5511941621715?text=Olá! Gostaria de saber mais sobre os serviços da PRODUTO Consultoria.", "_blank")}>
           <Phone className="w-4 h-4" />
           Fale Conosco
         </Button>
