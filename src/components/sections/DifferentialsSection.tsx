@@ -50,45 +50,45 @@ const DifferentialsSection = () => {
                       <item.icon className="w-7 h-7 text-primary-foreground" />
                     </div>
                   </DialogTrigger>
-                  <DialogContent className="max-w-5xl">
+                  <DialogContent className="max-w-[95vw] sm:max-w-lg md:max-w-3xl lg:max-w-5xl max-h-[85vh] overflow-y-auto">
                     <DialogHeader>
-                      <DialogTitle className="text-3xl font-bold text-foreground">
+                      <DialogTitle className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground">
                         Experiência e Visão Internacional
                       </DialogTitle>
                     </DialogHeader>
-                    <div className="grid md:grid-cols-2 gap-8 mt-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 mt-3 sm:mt-4">
                       {/* Left Column - Countries */}
                       <div>
-                        <p className="text-muted-foreground mb-4 text-lg">
+                        <p className="text-muted-foreground mb-3 sm:mb-4 text-sm sm:text-base md:text-lg">
                           Nossa atuação é sustentada por uma sólida experiência internacional, adquirida ao longo de inúmeras missões técnicas e projetos no exterior, com destaque para:
                         </p>
-                        <ul className="space-y-2 text-foreground text-lg">
+                        <ul className="space-y-1.5 sm:space-y-2 text-foreground text-sm sm:text-base md:text-lg">
                           <li className="flex items-center gap-2">
-                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-primary flex-shrink-0" />
                             Alemanha
                           </li>
                           <li className="flex items-center gap-2">
-                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-primary flex-shrink-0" />
                             França
                           </li>
                           <li className="flex items-center gap-2">
-                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-primary flex-shrink-0" />
                             Estados Unidos
                           </li>
                           <li className="flex items-center gap-2">
-                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-primary flex-shrink-0" />
                             Espanha
                           </li>
                           <li className="flex items-center gap-2">
-                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-primary flex-shrink-0" />
                             Portugal
                           </li>
                           <li className="flex items-center gap-2">
-                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-primary flex-shrink-0" />
                             <span><strong>China</strong> (mais de 20 viagens técnicas)</span>
                           </li>
                           <li className="flex items-center gap-2">
-                            <span className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-primary flex-shrink-0" />
                             E outros
                           </li>
                         </ul>
@@ -96,28 +96,28 @@ const DifferentialsSection = () => {
                       
                       {/* Right Column - China Activities */}
                       <div>
-                        <p className="font-semibold text-foreground mb-4 text-lg">
+                        <p className="font-semibold text-foreground mb-3 sm:mb-4 text-sm sm:text-base md:text-lg">
                           Na China, participamos ativamente de:
                         </p>
-                        <ul className="space-y-2 text-foreground mb-6 text-lg">
+                        <ul className="space-y-1.5 sm:space-y-2 text-foreground mb-4 sm:mb-6 text-sm sm:text-base md:text-lg">
                           <li className="flex items-start gap-2">
-                            <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
+                            <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-primary mt-1.5 sm:mt-2 flex-shrink-0" />
                             Feiras internacionais
                           </li>
                           <li className="flex items-start gap-2">
-                            <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
+                            <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-primary mt-1.5 sm:mt-2 flex-shrink-0" />
                             Desenvolvimento e avaliação de fornecedores de produtos e equipamentos
                           </li>
                           <li className="flex items-start gap-2">
-                            <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
+                            <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-primary mt-1.5 sm:mt-2 flex-shrink-0" />
                             Apoio técnico na construção de moldes
                           </li>
                           <li className="flex items-start gap-2">
-                            <span className="w-1.5 h-1.5 rounded-full bg-primary mt-2" />
+                            <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-primary mt-1.5 sm:mt-2 flex-shrink-0" />
                             Orientação para produção de peças em termoplástico e silicone líquido (LSR)
                           </li>
                         </ul>
-                        <p className="text-muted-foreground text-base italic">
+                        <p className="text-muted-foreground text-xs sm:text-sm md:text-base italic">
                           Isso nos mantém atualizados com as tecnologias mais avançadas do mercado, prontos para transferir esse conhecimento aos nossos clientes.
                         </p>
                       </div>
