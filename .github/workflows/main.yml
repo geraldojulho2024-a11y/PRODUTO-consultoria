@@ -43,4 +43,4 @@ jobs:
           protocol: ftps
           port: 21
           local-dir: ${{ env.BUILD_DIR }}/
-          server-dir: /
+          server-dir: /home1/prod4013/public_html/

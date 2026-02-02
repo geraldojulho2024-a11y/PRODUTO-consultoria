@@ -55,12 +55,12 @@ const ImageCarousel = () => {
           ))}
         </CarouselContent>
       </Carousel>
-      
+
       {/* Logo branco fixo sobre o carrossel */}
       <div className="absolute inset-0 flex items-end justify-center pb-1 md:pb-2 pointer-events-none">
-        <img 
-          src={logoBranco} 
-          alt="PRODUTO Consultoria" 
+        <img
+          src={logoBranco}
+          alt="PRODUTO Consultoria"
           className="h-52 md:h-72 lg:h-96 w-auto drop-shadow-lg"
         />
       </div>
