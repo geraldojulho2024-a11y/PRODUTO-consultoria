@@ -49,7 +49,7 @@ const Footer = () => {
                 Jundiaí, SP - Brasil
               </li>
               <li>
-                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+                <a href="https://www.linkedin.com/company/produto-consultoria-ltda/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary-foreground transition-colors">
                   <Linkedin className="w-4 h-4" />
                   LinkedIn
                 </a>
