@@ -24,7 +24,7 @@ const references = [
     logo: kolplastLogo,
   },
   {
-    company: "Martiplast Industria e Comércio de Plasticos Ltda",
+    company: "Martiplast Indústria e Comércio de Plásticos Ltda",
     website: "https://www.ou.com.br/",
     author: "Nelson Martini",
     role: "Diretor de Desenvolvimento",
